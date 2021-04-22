@@ -57,8 +57,20 @@ body {
     margin-bottom: 5px;
 }
 
+#intro .cronicas {
+    margin-bottom: 10px;
+}
+
+#intro .funcionaria {
+    margin-bottom: 20px;
+}
+
+#intro .flores {
+    margin-bottom: 7px;
+}
+
 #intro .social-link {
-    margin-top: 15px;
+    margin-top: 20px;
 }
 #intro .social-link span {
     font-size: 14px;
@@ -107,22 +119,26 @@ body {
 
 #gallery .project .img {
     height: 200px;
-    width: 150px;
+    width: 200px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
 #gallery .project .img-1 {
-    background-image: url("./Assets/img/Comida-sobremesa.jpeg");
+    background-image: url("./Assets/img/spotify_photo.jpeg");
 }
 
 #gallery .project .img-2 {
-    background-image: url("./Assets/img/Comida-montaña.jpeg");
+    background-image: url("./Assets/img/netflix_photo.jpeg");
 }
 
 #gallery .project .img-3 {
     background-image: url("./Assets/img/Comida-marruecos.jpeg");
+}
+
+#gallery .project .img-4 {
+    background-image: url("./Assets/img/peperomia_photo.jpeg");
 }
 
 #gallery .project .title {
