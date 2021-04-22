@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+body {
+    font-family: 'Lato';
+    background-color: #F7F7FF;
+    color: #3E6680;
+}
+
+/* Hero */
+
+#hero {
+    height: 500px;
+}
+#hero .outer {
+    height: 500px;
+    padding: 20px;
+}
+#hero .inner {
+    height: 500px;
+    background-color: #F7F7FF;
+    background: linear-gradient(to bottom, #F7F7FF, #BDD5EA), url("./assets/img/montaña.jpeg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero .inner:hover {
+    background: linear-gradient(lightblue,0) , url("./assets/img/montaña.jpeg");
+}
+
+#hero .title {
+    color: white;
+    font-size: 70px;
+
+}
+
+/* Intro */ 
+
+#intro{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+#intro .title {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#intro .text {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+#intro .social-link {
+    margin-top: 15px;
+}
+#intro .social-link span {
+    font-size: 14px;
+}
+
+/* Gallery */ 
+
+#gallery {
+    margin-top: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#gallery h1 {
+    margin-bottom: 20px;
+}
+
+#gallery .project {
+    text-decoration: none;
+    color: #3E6680;
+}
+
+#gallery .project:hover {
+    box-shadow: 1px 1px 1px #3E6680;
+    animation: bounce;
+    animation-duration: .5s;
+}
+
+/*
+#gallery .project:active {
+    color: #3E6680;
+}
+
+#gallery .project:link {
+    color: #3E6680;
+}
+
+#gallery .project:hover {
+    color: #3E6680;
+}
+
+#gallery .project:visited {
+    color: blue;
+}
+*/
+
+#gallery .project .img {
+    height: 200px;
+    width: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#gallery .project .img-1 {
+    background-image: url("./Assets/img/Comida-sobremesa.jpeg");
+}
+
+#gallery .project .img-2 {
+    background-image: url("./Assets/img/Comida-montaña.jpeg");
+}
+
+#gallery .project .img-3 {
+    background-image: url("./Assets/img/Comida-marruecos.jpeg");
+}
+
+#gallery .project .title {
+    padding: 0;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#gallery .project .detail {
+    padding: 0;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+/* Footer */
+
+#footer {
+    margin-top: 100px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #3E6680;
+    color: white;
+    letter-spacing: 5px;
+}
+
+#footer .logo {
+    padding-left: 5%;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#footer .data {
+    padding-left: 5%;
+    font-size: 12px;
+}
+
+#footer .data a {
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+#footer .social {
+    display: flex;
+    justify-content: center;
+}
+
+#footer .social a {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+}
