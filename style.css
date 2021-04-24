@@ -6,6 +6,53 @@ body {
     color: #3E6680;
 }
 
+/* Navbar */
+
+#navbar {
+    background-color: #F7F7FF;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+#navbar .row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#navbar .logo {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar .logo p {
+    color: #3E6680;
+}
+
+#navbar .menu {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#navbar .menu a {
+    margin-bottom: 0px;
+    margin-left: 25px;
+    margin-right: 25px;
+    color: #3E6680;
+    text-decoration: none;
+}
+
+#navbar .menu a:hover {
+    text-decoration: underline;
+}
+
 /* Hero */
 
 #hero {
@@ -18,7 +65,7 @@ body {
 #hero .inner {
     height: 500px;
     background-color: #F7F7FF;
-    background: linear-gradient(to bottom, #F7F7FF, #BDD5EA), url("./assets/img/montaña.jpeg");
+    background: linear-gradient(to bottom, #F7F7FF, #BDD5EA), url("./assets/img/montana.jpeg");
     background-blend-mode: multiply;
     background-size: cover;
     background-repeat: no-repeat;
