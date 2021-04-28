@@ -79,7 +79,7 @@ body {
     background: linear-gradient(lightblue,0) , url("./assets/img/montaña.jpeg");
 }
 
-#hero .title {
+#hero .typewrite {
     color: white;
     font-size: 70px;
 
@@ -200,6 +200,24 @@ body {
     margin-top: 5px;
     margin-bottom: 20px;
     font-size: 16px;
+}
+
+/* Map */
+
+#mapid {
+    height: 300px;
+    justify-content: center;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#map {
+    margin-top: 50px;
+}
+
+#map .nombre {
+    font-size: 20px;
+    color:  #3E6680
 }
 
 /* Footer */
