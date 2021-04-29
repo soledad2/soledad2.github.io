@@ -22,6 +22,45 @@ body {
     align-items: center;
 }
 
+.fa-bars {
+    color: #3E6680;
+    cursor: pointer;
+}
+
+.navbar.mobile {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: #F7F7FF;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.navbar.mobile i {
+    color: #3E6680;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.navbar.mobile span {
+    color: #3E6680;
+    font-size: 50px;
+    line-height: 100px;
+    cursor: pointer;
+}
+
+.navbar.mobile a {
+    color: #3E6680;
+    text-decoration: none;
+    font-size: 50px;
+    line-height: 100px;
+}
+
 #navbar .logo {
     height: 100%;
     display: flex;

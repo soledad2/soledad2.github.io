@@ -99,6 +99,18 @@ window.onload = function() {
     document.body.appendChild(css);
 };
 
+const navbar = document.querySelector(".navbar.mobile")
+const burger = document.querySelector(".fa-bars")
+const x = document.querySelector(".navbar.mobile i")
+
+burger.onclick = function () {
+    navbar.style.display = "flex"
+}
+x.onclick = function () {
+    navbar.style.display = "none"
+};
+
+
 
 //seleccionar -> transformar/detectar
 
