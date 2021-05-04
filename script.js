@@ -19,6 +19,20 @@ span.onclick = function () {
         navbar.style.backgroundColor = "#F7F7FF"
         span.innerHTML ="🐘"
     }
+
+    if (body.innerHTML == "🐘" ) {
+        //cambia a modo obscuro
+        body.style.backgroundColor = "#222";
+        navbar.style.backgroundColor = "#222";
+        body.innerHTML ="🐝"
+   }
+
+   else if (body.innerHTML == "🐝") {
+       //cambia a modo claro
+       body.style.backgroundColor = "#F7F7FF"
+       navbar.style.backgroundColor = "#F7F7FF"
+       body.innerHTML ="🐘"
+   }
     
 };
 

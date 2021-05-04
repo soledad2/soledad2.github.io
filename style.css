@@ -104,7 +104,7 @@ body {
 #hero .inner {
     height: 500px;
     background-color: #F7F7FF;
-    background: linear-gradient(to bottom, #F7F7FF, #BDD5EA), url("./assets/img/montana.jpeg");
+    background: linear-gradient(to bottom, #F7F7FF, #BDD5EA), url("./Assets/img/montana.jpeg");
     background-blend-mode: multiply;
     background-size: cover;
     background-repeat: no-repeat;
@@ -115,7 +115,7 @@ body {
 }
 
 #hero .inner:hover {
-    background: linear-gradient(lightblue,0) , url("./assets/img/montaña.jpeg");
+    background: linear-gradient(lightblue,0) , url("./Assets/img/montana.jpeg");
 }
 
 #hero .typewrite {
